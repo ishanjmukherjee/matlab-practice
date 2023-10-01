@@ -11,7 +11,6 @@
 % (x-ε,cos(x-ε)/(x-ε)) and (x+ε,cos(x+ε)/(x+ε)) that is seen if x =
 % -pi:0.001:pi instead, for example. Note that 0 won't be in x if the
 % interval is not a multiple of pi.
-
 x = -pi:pi/1000:pi;
 
 subplot(2,1,1)
