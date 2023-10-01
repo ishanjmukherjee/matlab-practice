@@ -1,4 +1,4 @@
-% EoMP Example 3.1
+% EoMP Example 3.2
 % Problem statement: 
 % Plot a decaying exponential function where the time constant is 3 s and 
 % the radial velocity is pi rad/s over the range 0 <= t <= 10 s. Include
