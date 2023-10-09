@@ -1,4 +1,4 @@
-% EoMP Example 5.1
+% EoMP Example 5.3
 % Problem statement:
 % Calculate the day of the year based on user inputs of year, month and
 % day.
