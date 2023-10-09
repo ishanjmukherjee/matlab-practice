@@ -1,4 +1,4 @@
-% EoMP Example 5.1
+% EoMP Example 5.2
 % Problem statement:
 % Calculate the factorial of a user-inputted number using a for loop.
 
