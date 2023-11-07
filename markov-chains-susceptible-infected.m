@@ -20,7 +20,7 @@ state_init = [init_s, init_i]';
 % Intially, the transition matrix looks like this:
 %           S                   I
 % S     1 - beta * I(1)     beta * I(1)
-% P         0                   1  
+% I         0                   1  
 P = [(1-beta*init_i) (beta*init_i); 0 1];
 
 % Preallocating state vector to be (num of competitors) tall and years 
@@ -40,7 +40,7 @@ for ii = 2:days
     % compute state(k+1) must look like:
     %           S                   I
     % S     1 - beta * I(k)     beta * I(k)
-    % P         0                   1
+    % I         0                   1
     P(1, [1 2]) = [(1 - beta * state(2,ii)), beta * state(2,ii)];
 end
 
